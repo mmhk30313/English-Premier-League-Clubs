@@ -1,0 +1,22 @@
+.info{
+    display: flex;
+    align-items: center;
+}
+.info img{
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.club-player-img img{
+    height: 238px;
+    width: 85%;
+}
+.social-link a{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid white; */
+    margin: 5px;
+}
+.social-link a img{
+    height: 60px;
+}
