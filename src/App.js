@@ -9,6 +9,7 @@ import './App.css';
 import Home from "./Components/Home/Home";
 import ClubDetails from "./Components/ClubDetails/ClubDetails";
 import NotFound from "./Components/NotFound/NotFound";
+import ScrollUp from "./Components/ScrollUp/ScrollUp";
 export const UserContext = createContext();
 function App() {
   const [selectedClub, setSelectedClub] = useState({});
@@ -39,7 +40,9 @@ function App() {
           </Route>
           <Route path="*/:page" component={NotFound}/>
         </Switch>
+        {/* <ScrollUp/> */}
       </Router>
+      <ScrollUp/>
     </UserContext.Provider>
   );
 }
